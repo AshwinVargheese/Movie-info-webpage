@@ -1,0 +1,123 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #0d0d0d;
+    color: #fff;
+    line-height: 1.6;
+}
+
+/* Hero Banner */
+.hero {
+    height: 60vh;
+    background: url('https://wallpaperaccess.com/full/1267587.jpg') center/cover no-repeat;
+    position: relative;
+}
+
+.overlay {
+    background-color: rgba(0, 0, 0, 0.6);
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.overlay h1 {
+    font-size: 3rem;
+    color: #e0e0e0;
+    text-shadow: 2px 2px 8px #000;
+}
+
+.overlay p {
+    font-size: 1.2rem;
+    color: #ccc;
+}
+
+/* Movie Info */
+.movie-info {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2rem;
+    gap: 2rem;
+    background-color: #111;
+}
+
+.poster img {
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.7);
+}
+
+.details h2 {
+    margin-bottom: 1rem;
+    color: #ffcc00;
+}
+
+.details p {
+    margin-bottom: 1rem;
+}
+
+.details ul li {
+    margin-bottom: 0.5rem;
+}
+
+/* Cast Section */
+.cast {
+    padding: 2rem;
+    background-color: #1a1a1a;
+}
+
+.cast h2 {
+    color: #ffcc00;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.cast-grid {
+    display: flex;
+    gap: 1.5rem;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.cast-member {
+    text-align: center;
+}
+
+.cast-member img {
+    width: 150px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 2px solid #ffcc00;
+    transition: transform 0.3s ease;
+}
+
+.cast-member img:hover {
+    transform: scale(1.05);
+}
+
+.cast-member p {
+    margin-top: 0.5rem;
+    font-weight: bold;
+}
+
+.cast-member span {
+    color: #aaa;
+    font-size: 0.9rem;
+}
+
+/* Footer */
+footer {
+    background-color: #000;
+    text-align: center;
+    padding: 1rem;
+    color: #666;
+    font-size: 0.9rem;
+}
